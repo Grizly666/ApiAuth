@@ -1,0 +1,31 @@
+/* ==== Cards using Bootstrap === */
+body{
+    background-color: rgba(128, 128, 128, 0.158);
+
+    place-items: center;
+    background: #dde1e7;
+}
+
+#cards .card {
+    border-radius: 20px;
+    min-height: 100%;
+    width: 100%;
+}
+
+#cards .heading-border {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+}
+
+#cards .card .user-picture img {
+    position: absolute;
+    top: -20%;
+    right: 10%;
+    background: #f8f9fa!important;
+    padding: 10px;
+}
+
+#cards .card .user-content .user-name {
+    margin-right: 150px;
+}
